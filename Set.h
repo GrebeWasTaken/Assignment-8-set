@@ -40,6 +40,7 @@ public:
     delete[] m_data;
   }
 
+  //copy
   Set(const Set<T>& other) {
     m_capacity = other.m_capacity;
     m_size = other.m_sizel;
