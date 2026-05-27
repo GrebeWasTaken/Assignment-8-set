@@ -69,7 +69,7 @@ public:
   }
 
   void remove(T item) {
-    
+    for (int i = )
   }
 
 
