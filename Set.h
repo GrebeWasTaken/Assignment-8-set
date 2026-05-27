@@ -40,7 +40,7 @@ public:
     delete[] m_data;
   }
 
-  s
+  Set(const S)
 
   bool contains(T item) const
   {
