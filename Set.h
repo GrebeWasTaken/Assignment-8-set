@@ -160,7 +160,8 @@ public:
   string toString() const{
     stringstream out;
 
-    out << "{}"
+    out << "{";
+    
   }
 };
 
