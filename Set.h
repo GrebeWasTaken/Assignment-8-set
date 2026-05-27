@@ -51,7 +51,7 @@ public:
     }
   }
 
-  
+  Set
 
   bool contains(T item) const
   {
