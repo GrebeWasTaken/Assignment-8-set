@@ -139,7 +139,9 @@ public:
   }
 
   bool operator==(const set<T>& other) const {
-    if ()
+    if (m_size != other.m_size) {
+      
+    }
   }
 
 };
