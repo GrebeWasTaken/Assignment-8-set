@@ -165,7 +165,7 @@ public:
       out << m_data[i];
 
       if (i < m_size - 1) {
-        
+        out << ", ";
       }
     }
   }
