@@ -22,9 +22,9 @@ private:
 
     for (int i = 0; i < m_size; i++) {
       newData[i] = m_data[i];
-      m_data = newData;
-      delete[] m_data;
       
+      delete[] m_data;
+      m_data = newData;
     }
   }
 
