@@ -16,7 +16,8 @@ class Set{
 
     void grow() {
       m_capacity *= 2;
-      
+
+      T* newData
     }
   publice:
     Set() {
