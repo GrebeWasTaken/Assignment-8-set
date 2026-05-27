@@ -19,7 +19,7 @@ class Set{
 
       T* newData = new T[m_capacity];
 
-      for (int i - 0; i < m_size; i++) {
+      for (int i = 0; i < m_size; i++) {
         newData[i] = m_data[i];
 
         delete[] m_data;
