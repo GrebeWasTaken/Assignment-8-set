@@ -65,7 +65,9 @@ public:
     m_size++;
   }
 
-  int getSize
+  int getSize() const {
+    
+  }
 
 
 };
