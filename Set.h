@@ -162,7 +162,9 @@ public:
 
     out << "{";
     for (int i = 0; i < m_size; i++) { 
-      out << m_data
+      out << m_data[i];
+
+      
     }
   }
 };
