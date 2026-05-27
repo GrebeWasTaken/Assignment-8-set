@@ -26,7 +26,9 @@ class Set{
     }
 
     bool contains(T item) const {
-      for (int i = 0; i < m_size; i++)
+      for (int i = 0; i < m_size; i++) {
+        
+      }
     }
 
     void add(T item) {
