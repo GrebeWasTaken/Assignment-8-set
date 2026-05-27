@@ -20,6 +20,8 @@ class Set{
       m_size = 0;
       m_data =  new T[m_capacity];
     }
+
+    
 }
 
 #endif
