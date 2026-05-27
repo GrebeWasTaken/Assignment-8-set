@@ -55,7 +55,7 @@ class Set{
         grow();
       }
 
-      m_data
+      m_data[m_size]
     }
 };
 
