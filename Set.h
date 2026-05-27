@@ -140,7 +140,7 @@ public:
 
   bool operator==(const set<T>& other) const {
     if (m_size != other.m_size) {
-      
+      return false;
     }
   }
 
