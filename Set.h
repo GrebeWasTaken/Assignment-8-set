@@ -66,7 +66,7 @@ public:
   }
 
   int getSize() const {
-    
+    return m_size;
   }
 
 
