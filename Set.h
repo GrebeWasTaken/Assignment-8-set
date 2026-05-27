@@ -177,7 +177,7 @@ public:
   Set<T> intersectionWidth(const Set<T>& other) const {
     Set<T> result;
 
-    
+    for 
   }
 };
 
