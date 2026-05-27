@@ -7,6 +7,6 @@
 
 using namespace std;
 
-template <
+template <typename T>
 
 #endif
