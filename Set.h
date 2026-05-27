@@ -18,7 +18,9 @@ class Set{
     Set() {
       m_capcity = 8
       m_size = 0;
-      m_data =  new T[m_capacity]
+      m_data =  new T[m_capacity];
+
+      
     }
 }
 
