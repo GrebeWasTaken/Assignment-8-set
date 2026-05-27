@@ -122,7 +122,9 @@ public:
     int smallestIndex = 0;
 
     for (int i = 1; i < m_size ; i++) {
-      if (m_data[i] < m_data)
+      if (m_data[i] < m_data[smallestIndex]) {
+        
+      }
     }
   }
 
