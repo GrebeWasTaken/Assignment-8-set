@@ -54,6 +54,8 @@ class Set{
       if (m_size == m_capacity) {
         grow();
       }
+
+      m_data
     }
 };
 
