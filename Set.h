@@ -75,7 +75,7 @@ public:
           m_data[j] m_data[j + 1];
         }
 
-        m_
+        m_size--;
       }
     }
   }
