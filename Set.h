@@ -23,7 +23,7 @@ class Set{
         newData[i] = m_data[i];
 
         delete[] m_data;
-        m_data = new
+        m_data = newData;
       }
     }
   publice:
