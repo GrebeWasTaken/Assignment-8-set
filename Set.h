@@ -19,7 +19,7 @@ class Set{
 
       T* newData = new T[m_capacity];
 
-      f
+      for (int i - )
     }
   publice:
     Set() {
