@@ -178,7 +178,7 @@ public:
     Set<T> result;
 
     for (int i = 0; i < m_size; i++) {
-      
+      if (other.contains)
     }
   }
 };
