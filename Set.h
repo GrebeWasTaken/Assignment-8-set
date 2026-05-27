@@ -161,7 +161,7 @@ public:
     stringstream out;
 
     out << "{";
-    
+    for 
   }
 };
 
