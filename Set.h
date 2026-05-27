@@ -138,7 +138,7 @@ public:
     return smallestValue;
   }
 
-  
+  bool operator==(const set<T>)
 
 };
 
