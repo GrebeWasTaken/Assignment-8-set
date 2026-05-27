@@ -209,30 +209,30 @@ TEST_CASE("RemoveSmallest")
   REQUIRE(s.contains(30));
 }
 
-// TEST_CASE("Operator==")
-// {
-//   cout << "9 - Testing operator==" << endl;
-//   Set<int> s;
-//   for (int i = 1; i <= 4; i++)
-//     s.add(i);
-//   // s = 1,2,3,4
+TEST_CASE("Operator==")
+{
+  cout << "9 - Testing operator==" << endl;
+  Set<int> s;
+  for (int i = 1; i <= 4; i++)
+    s.add(i);
+  // s = 1,2,3,4
 
-//   Set<int> s2;
-//   for (int i = 5; i >= 1; i--)
-//     s2.add(i);
-//   // s2 = 5,4,3,2,1
+  Set<int> s2;
+  for (int i = 5; i >= 1; i--)
+    s2.add(i);
+  // s2 = 5,4,3,2,1
 
-//   bool areEqualResult = s == s2;
-//   REQUIRE(areEqualResult == false);
+  bool areEqualResult = s == s2;
+  REQUIRE(areEqualResult == false);
 
-//   s.add(5); // s = 1,2,3,4,5
-//   areEqualResult = s == s2;
-//   REQUIRE(areEqualResult == true);
+  s.add(5); // s = 1,2,3,4,5
+  areEqualResult = s == s2;
+  REQUIRE(areEqualResult == true);
 
-//   s.add(6); // s = 1,2,3,4,5,6
-//   areEqualResult = s == s2;
-//   REQUIRE(areEqualResult == false);
-// }
+  s.add(6); // s = 1,2,3,4,5,6
+  areEqualResult = s == s2;
+  REQUIRE(areEqualResult == false);
+}
 
 // // NOTE - you only need this OR StreamInsertion, not both tests
 // TEST_CASE("ToString")
