@@ -115,7 +115,9 @@ public:
   }
 
   T removeSmallest() {
-    
+    if (m_size == 0) {
+      throw runtime_error
+    }
   }
 
 };
