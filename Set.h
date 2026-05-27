@@ -27,7 +27,7 @@ class Set{
 
     bool contains(T item) const {
       for (int i = 0; i < m_size; i++) {
-        if (m_data)
+        if (m_data[i])
       }
     }
 
