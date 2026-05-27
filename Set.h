@@ -139,7 +139,7 @@ public:
   }
 
   bool operator==(const set<T>& other) const {
-    
+    if ()
   }
 
 };
