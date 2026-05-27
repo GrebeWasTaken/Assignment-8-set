@@ -51,7 +51,7 @@ class Set{
         return;
       }
 
-      if 
+      if (m_size )
     }
 };
 
