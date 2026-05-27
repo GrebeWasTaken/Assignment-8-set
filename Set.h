@@ -116,8 +116,10 @@ public:
 
   T removeSmallest() {
     if (m_size == 0) {
-      throw runtime_error("Cannot remove from empty set.")
+      throw runtime_error("Cannot remove from empty set.");
     }
+
+    int 
   }
 
 };
