@@ -53,7 +53,7 @@ public:
 
   Set<T>& operator=(const Set<T>& other) {
     if (this != &other) {
-      
+      delete []
     }
   }
 
