@@ -9,7 +9,7 @@ using namespace std;
 
 template <typename T>
 class Set{
-  
+  private
 }
 
 #endif
