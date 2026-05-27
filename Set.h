@@ -55,7 +55,9 @@ public:
     if (this != &other) {
       delete[] m_data;
 
-      m_capacity = other.
+      m_capacity = other.m_capacity;
+    m_size = other.m_size;
+    m_data = new T[m_capacity];
     }
   }
 
