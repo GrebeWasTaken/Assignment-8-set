@@ -174,7 +174,7 @@ public:
     return out.str();
   }
 
-  Set<T> intersectionWidth(const Set<T>& other) const {
+  Set<T> intersectionWith(const Set<T>& other) const {
     Set<T> result;
 
     for (int i = 0; i < m_size; i++) {
