@@ -84,7 +84,7 @@ public:
   }
 
   void clear() {
-    
+    m_size = 0;
   }
 };
 
