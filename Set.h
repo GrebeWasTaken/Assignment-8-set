@@ -52,7 +52,7 @@ public:
   }
 
   Set<T>& operator=(const Set<T>& other) {
-    
+    if (this != )
   }
 
   bool contains(T item) const
