@@ -164,7 +164,7 @@ public:
     for (int i = 0; i < m_size; i++) { 
       out << m_data[i];
 
-      
+      if (i < m_size)
     }
   }
 };
