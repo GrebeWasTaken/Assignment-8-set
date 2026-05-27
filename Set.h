@@ -83,7 +83,9 @@ public:
     }
   }
 
-  v
+  void clear() {
+    
+  }
 };
 
 #endif
