@@ -114,7 +114,9 @@ public:
     m_size = 0;
   }
 
-  T
+  T removeSmallest() {
+    
+  }
 
 };
 
