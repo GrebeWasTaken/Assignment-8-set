@@ -74,6 +74,8 @@ public:
         for (int j = i; j < m_size - 1; j++) {
           m_data[j] m_data[j + 1];
         }
+
+        m_
       }
     }
   }
