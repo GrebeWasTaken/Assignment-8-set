@@ -22,7 +22,7 @@ class Set{
     }
 
     ~Set() {
-      delete [] m_
+      delete[] m_data;
     }
 }
 
