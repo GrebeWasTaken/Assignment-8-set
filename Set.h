@@ -68,7 +68,7 @@ public:
     return m_size;
   }
 
-  void remove
+  void remove(T item)
 
 
 };
