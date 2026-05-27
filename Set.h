@@ -46,7 +46,7 @@ public:
     m_size = other.m_size;
     m_data = new T[m_capacity];
 
-    
+    for 
   }
 
   bool contains(T item) const
