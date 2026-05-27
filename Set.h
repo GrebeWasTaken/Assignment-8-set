@@ -142,7 +142,7 @@ public:
     return smallestValue;
   }
 
-  bool operator==(const set<T>& other) const
+  bool operator==(const Set<T>& other) const
   {
     if (m_size != other.m_size) {
       return false;
