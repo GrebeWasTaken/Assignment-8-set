@@ -135,7 +135,7 @@ public:
 
     m_size--;
 
-    return smallestValue
+    return smallestValue;
   }
 
 };
