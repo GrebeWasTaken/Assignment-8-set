@@ -64,15 +64,17 @@ public:
     m_size++;
   }
 
-  int getSize() const {
+  int getSize() const
+  {
     return m_size;
   }
 
-  void remove(T item) {
+  void remove(T item)
+  {
     for (int i = 0; i < m_size; i++) {
       if (m_data[i] == item) {
         for (int j = i; j < m_size - 1; j++) {
-          m_data[j] m_data[j + 1];
+          m_data[j] = m_data[j + 1];
         }
 
         m_size--;
@@ -80,8 +82,6 @@ public:
       }
     }
   }
-
-
 };
 
 #endif
