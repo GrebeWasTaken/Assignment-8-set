@@ -138,8 +138,8 @@ public:
     return smallestValue;
   }
 
-
   
+
 };
 
 #endif
