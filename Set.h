@@ -56,7 +56,7 @@ class Set{
       }
 
       m_data[m_size] = item;
-      m_size
+      m_size++;
     }
 };
 
