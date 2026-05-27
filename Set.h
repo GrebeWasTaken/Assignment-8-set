@@ -71,7 +71,7 @@ public:
   void remove(T item) {
     for (int i = 0; i < m_size; i++) {
       if (m_data[i] == item) {
-        for (int j = i)
+        for (int j = i; j)
       }
     }
   }
