@@ -165,18 +165,18 @@ TEST_CASE("Remove")
 //   }
 // }
 
-// TEST_CASE("Clear")
-// {
-//   cout << "7 - Testing Clear" << endl;
+TEST_CASE("Clear")
+{
+  cout << "7 - Testing Clear" << endl;
 
-//   Set<char> s;
-//   s.add('A');
-//   s.add('B');
-//   s.clear();
-//   REQUIRE(s.getSize() == 0);
-//   REQUIRE(!s.contains('A'));
-//   REQUIRE(!s.contains('B'));
-// }
+  Set<char> s;
+  s.add('A');
+  s.add('B');
+  s.clear();
+  REQUIRE(s.getSize() == 0);
+  REQUIRE(!s.contains('A'));
+  REQUIRE(!s.contains('B'));
+}
 
 // TEST_CASE("RemoveSmallest")
 // {
