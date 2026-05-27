@@ -26,7 +26,7 @@ class Set{
         m_data = newData;
       }
     }
-  publice:
+  public:
     Set() {
       m_capcity = 8
       m_size = 0;
@@ -59,7 +59,7 @@ class Set{
       m_size++;
     }
 
-    
+
 };
 
 #endif
