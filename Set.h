@@ -171,7 +171,7 @@ public:
 
     out << "}";
 
-    
+    return out.str();
   }
 };
 
