@@ -138,7 +138,9 @@ public:
     return smallestValue;
   }
 
-  bool operator==(const set<T>)
+  bool operator==(const set<T>& other) const {
+    
+  }
 
 };
 
