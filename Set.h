@@ -76,7 +76,7 @@ public:
         }
 
         m_size--;
-        return
+        return;
       }
     }
   }
