@@ -127,7 +127,7 @@ public:
       }
     }
 
-    T smallestValue
+    T smallestValue = m_dat
   }
 
 };
