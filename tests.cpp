@@ -99,71 +99,71 @@ TEST_CASE("Remove")
   REQUIRE(s.contains('E'));
 }
 
-// TEST_CASE("CopyConstructor")
-// {
-//   cout << "5 - Testing CopyConstructor" << endl;
-//   Set<int> s;
-//   s.add(1);
-//   s.add(2);
+TEST_CASE("CopyConstructor")
+{
+  cout << "5 - Testing CopyConstructor" << endl;
+  Set<int> s;
+  s.add(1);
+  s.add(2);
 
-//   Set<int> s2(s);
-//   s2.add(3);
+  Set<int> s2(s);
+  s2.add(3);
 
-//   s.remove(1);
+  s.remove(1);
 
-//   REQUIRE(!s.contains(1));
-//   REQUIRE(s.contains(2));
-//   REQUIRE(!s.contains(3));
+  REQUIRE(!s.contains(1));
+  REQUIRE(s.contains(2));
+  REQUIRE(!s.contains(3));
 
-//   REQUIRE(s2.contains(1));
-//   REQUIRE(s2.contains(2));
-//   REQUIRE(s2.contains(3));
-// }
+  REQUIRE(s2.contains(1));
+  REQUIRE(s2.contains(2));
+  REQUIRE(s2.contains(3));
+}
 
-// TEST_CASE("AssignmentOp")
-// {
-//   cout << "6 - Testing AssignmentOperator" << endl;
+TEST_CASE("AssignmentOp")
+{
+  cout << "6 - Testing AssignmentOperator" << endl;
 
-//   SUBCASE("AssignmentOperator/DeepCopy")
-//   {
-//     cout << "   ...DeepCopy" << endl;
-//     Set<int> s;
-//     s.add(1);
-//     s.add(2);
+  SUBCASE("AssignmentOperator/DeepCopy")
+  {
+    cout << "   ...DeepCopy" << endl;
+    Set<int> s;
+    s.add(1);
+    s.add(2);
 
-//     Set<int> s2;
-//     s2.add(4); // should be cleared out
-//     s2 = s;
-//     s2.add(3);
+    Set<int> s2;
+    s2.add(4); // should be cleared out
+    s2 = s;
+    s2.add(3);
 
-//     s.remove(2);
+    s.remove(2);
 
-//     REQUIRE(s.contains(1));
-//     REQUIRE(!s.contains(2));
-//     REQUIRE(!s.contains(3));
+    REQUIRE(s.contains(1));
+    REQUIRE(!s.contains(2));
+    REQUIRE(!s.contains(3));
 
-//     REQUIRE(s2.contains(1));
-//     REQUIRE(s2.contains(2));
-//     REQUIRE(s2.contains(3));
-//     REQUIRE(!s2.contains(4));
-//   }
+    REQUIRE(s2.contains(1));
+    REQUIRE(s2.contains(2));
+    REQUIRE(s2.contains(3));
+    REQUIRE(!s2.contains(4));
+  }
 
-//   SUBCASE("AssignmentOperator/SelfAssignment")
-//   {
-//     cout << "   ...SelfAssignment" << endl;
-//     Set<int> s;
-//     s.add(1);
-//     s.add(2);
+  SUBCASE("AssignmentOperator/SelfAssignment")
+  {
+    cout << "   ...SelfAssignment" << endl;
+    Set<int> s;
+    s.add(1);
+    s.add(2);
 
-//     // This line will produce a warning - that is OK
-//     // We are making sure your assignment operator does not choke on self
-//     // assignment
-//     s = s;
+    // This line will produce a warning - that is OK
+    // We are making sure your assignment operator does not choke on self
+    // assignment
+    s = s;
 
-//     REQUIRE(s.contains(1));
-//     REQUIRE(s.contains(2));
-//   }
-// }
+    REQUIRE(s.contains(1));
+    REQUIRE(s.contains(2));
+  }
+}
 
 TEST_CASE("Clear")
 {
