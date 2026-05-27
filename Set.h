@@ -24,7 +24,7 @@ private:
       newData[i] = m_data[i];
     }
     delete[] m_data;
-      m_data = newData;
+    m_data = newData;
   }
 
 public:
