@@ -178,36 +178,36 @@ TEST_CASE("Clear")
   REQUIRE(!s.contains('B'));
 }
 
-// TEST_CASE("RemoveSmallest")
-// {
-//   cout << "8 - Testing removeSmallest" << endl;
-//   Set<int> s;
-//   s.add(20);
-//   s.add(5);
-//   s.add(30);
-//   s.add(10);
-//   s.add(25);
-//   s.add(15);
+TEST_CASE("RemoveSmallest")
+{
+  cout << "8 - Testing removeSmallest" << endl;
+  Set<int> s;
+  s.add(20);
+  s.add(5);
+  s.add(30);
+  s.add(10);
+  s.add(25);
+  s.add(15);
 
-//   int temp = s.removeSmallest();
-//   REQUIRE(temp == 5);
-//   REQUIRE(!s.contains(5));
-//   REQUIRE(s.getSize() == 5);
+  int temp = s.removeSmallest();
+  REQUIRE(temp == 5);
+  REQUIRE(!s.contains(5));
+  REQUIRE(s.getSize() == 5);
 
-//   temp = s.removeSmallest();
-//   REQUIRE(temp == 10);
-//   REQUIRE(!s.contains(10));
-//   REQUIRE(s.getSize() == 4);
+  temp = s.removeSmallest();
+  REQUIRE(temp == 10);
+  REQUIRE(!s.contains(10));
+  REQUIRE(s.getSize() == 4);
 
-//   temp = s.removeSmallest();
-//   REQUIRE(temp == 15);
-//   REQUIRE(!s.contains(15));
-//   REQUIRE(s.getSize() == 3);
+  temp = s.removeSmallest();
+  REQUIRE(temp == 15);
+  REQUIRE(!s.contains(15));
+  REQUIRE(s.getSize() == 3);
 
-//   REQUIRE(s.contains(20));
-//   REQUIRE(s.contains(25));
-//   REQUIRE(s.contains(30));
-// }
+  REQUIRE(s.contains(20));
+  REQUIRE(s.contains(25));
+  REQUIRE(s.contains(30));
+}
 
 // TEST_CASE("Operator==")
 // {
