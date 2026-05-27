@@ -69,7 +69,7 @@ public:
   }
 
   void remove(T item) {
-    for (int i = )
+    for (int i = 0; i < m_sizel)
   }
 
 
