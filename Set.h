@@ -51,7 +51,9 @@ class Set{
         return;
       }
 
-      if (m_size == m_capacti)
+      if (m_size == m_capacity) {
+        
+      }
     }
 };
 
