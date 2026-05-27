@@ -68,36 +68,36 @@ TEST_CASE("Grow")
   REQUIRE(s.getSize() == 1000);
 }
 
-// TEST_CASE("Remove")
-// {
-//   cout << "4 - Testing Remove" << endl;
+TEST_CASE("Remove")
+{
+  cout << "4 - Testing Remove" << endl;
 
-//   Set<char> s;
-//   s.add('A');
-//   s.add('B');
-//   s.add('C');
-//   REQUIRE(s.getSize() == 3);
-//   REQUIRE(s.contains('A'));
-//   REQUIRE(s.contains('B'));
-//   REQUIRE(s.contains('C'));
+  Set<char> s;
+  s.add('A');
+  s.add('B');
+  s.add('C');
+  REQUIRE(s.getSize() == 3);
+  REQUIRE(s.contains('A'));
+  REQUIRE(s.contains('B'));
+  REQUIRE(s.contains('C'));
 
-//   s.remove('A');
+  s.remove('A');
 
-//   REQUIRE(s.getSize() == 2);
-//   REQUIRE(!s.contains('A'));
-//   REQUIRE(s.contains('B'));
-//   REQUIRE(s.contains('C'));
+  REQUIRE(s.getSize() == 2);
+  REQUIRE(!s.contains('A'));
+  REQUIRE(s.contains('B'));
+  REQUIRE(s.contains('C'));
 
-//   s.add('D');
-//   s.add('E');
-//   s.remove('C');
+  s.add('D');
+  s.add('E');
+  s.remove('C');
 
-//   REQUIRE(s.getSize() == 3);
-//   REQUIRE(s.contains('B'));
-//   REQUIRE(!s.contains('C'));
-//   REQUIRE(s.contains('D'));
-//   REQUIRE(s.contains('E'));
-// }
+  REQUIRE(s.getSize() == 3);
+  REQUIRE(s.contains('B'));
+  REQUIRE(!s.contains('C'));
+  REQUIRE(s.contains('D'));
+  REQUIRE(s.contains('E'));
+}
 
 // TEST_CASE("CopyConstructor")
 // {
