@@ -24,6 +24,6 @@ class Set{
     ~Set() {
       delete[] m_data;
     }
-}
+};
 
 #endif
