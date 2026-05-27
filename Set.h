@@ -14,7 +14,7 @@ class Set{
     int m_size;
     int m_capacity;
 
-    void grow ()
+    
   publice:
     Set() {
       m_capcity = 8
