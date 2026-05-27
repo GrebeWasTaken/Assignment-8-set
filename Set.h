@@ -174,7 +174,7 @@ public:
     return out.str();
   }
 
-  
+  Set<T> intersectionWidth(const )
 };
 
 #endif
