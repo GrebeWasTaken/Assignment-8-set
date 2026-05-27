@@ -123,7 +123,7 @@ public:
 
     for (int i = 1; i < m_size ; i++) {
       if (m_data[i] < m_data[smallestIndex]) {
-        
+        smallestIndex = i;
       }
     }
   }
