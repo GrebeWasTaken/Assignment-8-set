@@ -144,7 +144,7 @@ public:
     }
 
     for (int i = 0; i < m_size; i++) {
-      if ()
+      if (!other.contains())
     }
   }
 
