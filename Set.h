@@ -16,7 +16,7 @@ class Set{
 
   publice:
     Set() {
-      
+      m_capcity = 
     }
 }
 
