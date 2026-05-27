@@ -51,7 +51,7 @@ public:
     }
   }
 
-  Set<T>& operator=
+  Set<T>& operator=(const Set)
 
   bool contains(T item) const
   {
