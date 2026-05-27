@@ -14,7 +14,7 @@ class Set{
     int m_size;
     int m_capacity;
 
-    
+  
 }
 
 #endif
