@@ -43,7 +43,8 @@ public:
   //copy
   Set(const Set<T>& other) {
     m_capacity = other.m_capacity;
-    m_size = other.m_sizel;
+    m_size = other.m_size;
+    
   }
 
   bool contains(T item) const
