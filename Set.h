@@ -25,7 +25,9 @@ class Set{
       delete[] m_data;
     }
 
-    bool contains(T item) 
+    bool contains(T item) const{
+      
+    }
 
     void add(T item) {
       
