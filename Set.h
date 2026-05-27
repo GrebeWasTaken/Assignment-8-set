@@ -127,7 +127,7 @@ public:
       }
     }
 
-    T smalles
+    T smallestValue
   }
 
 };
