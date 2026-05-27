@@ -144,7 +144,9 @@ public:
     }
 
     for (int i = 0; i < m_size; i++) {
-      if (!other.contains(m_data[i])){}
+      if (!other.contains(m_data[i])){
+        
+      }
     }
   }
 
