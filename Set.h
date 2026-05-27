@@ -127,7 +127,9 @@ public:
       }
     }
 
-    T smallestValue = m_dat
+    T smallestValue = m_data[smallestIndex];
+
+    
   }
 
 };
