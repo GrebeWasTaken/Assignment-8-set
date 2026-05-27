@@ -40,7 +40,9 @@ public:
     delete[] m_data;
   }
 
-  Set(const Set<T>)
+  Set(const Set<T>& other) {
+    
+  }
 
   bool contains(T item) const
   {
