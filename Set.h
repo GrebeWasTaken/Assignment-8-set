@@ -70,7 +70,7 @@ public:
 
   void remove(T item) {
     for (int i = 0; i < m_size; i++) {
-      for (int )
+      if (m_data[i] )
     }
   }
 
