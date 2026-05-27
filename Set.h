@@ -133,7 +133,9 @@ public:
       m_data[i] = m_data[i + 1];
     }
 
-    m_size 
+    m_size--;
+
+    return smallestValue
   }
 
 };
