@@ -10,7 +10,11 @@ using namespace std;
 template <typename T>
 class Set{
   private:
-    T
+    T* m_data;
+    int m_size;
+    int m_capacity;
+
+    
 }
 
 #endif
