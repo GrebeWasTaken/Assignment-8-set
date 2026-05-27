@@ -21,7 +21,9 @@ class Set{
       m_data =  new T[m_capacity];
     }
 
-    ~
+    ~Set() {
+      delete
+    }
 }
 
 #endif
