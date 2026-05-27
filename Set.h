@@ -40,6 +40,8 @@ public:
     delete[] m_data;
   }
 
+  s
+
   bool contains(T item) const
   {
     for (int i = 0; i < m_size; i++) {
