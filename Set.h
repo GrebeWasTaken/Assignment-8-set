@@ -50,6 +50,8 @@ class Set{
       if (contains(item)) { 
         return;
       }
+
+      if 
     }
 };
 
