@@ -31,7 +31,8 @@ private:
 public:
   Set()
   {
-    m_capacity = 8 m_size = 0;
+    m_capacity = 8 
+    m_size = 0;
     m_data = new T[m_capacity];
   }
 
