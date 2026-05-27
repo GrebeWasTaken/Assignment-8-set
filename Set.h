@@ -121,7 +121,9 @@ public:
 
     int smallestIndex = 0;
 
-    for (int i = 1; i < m_size ; i++){}
+    for (int i = 1; i < m_size ; i++) {
+      
+    }
   }
 
 };
