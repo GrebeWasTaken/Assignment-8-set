@@ -40,8 +40,9 @@ public:
     delete[] m_data;
   }
 
-  //copy
-  Set(const Set<T>& other) {
+  // copy
+  Set(const Set<T>& other)
+  {
     m_capacity = other.m_capacity;
     m_size = other.m_size;
     m_data = new T[m_capacity];
@@ -51,7 +52,8 @@ public:
     }
   }
 
-  Set<T>& operator=(const Set<T>& other) {
+  Set<T>& operator=(const Set<T>& other)
+  {
     if (this != &other) {
       delete[] m_data;
 
@@ -110,18 +112,20 @@ public:
     }
   }
 
-  void clear() {
+  void clear()
+  {
     m_size = 0;
   }
 
-  T removeSmallest() {
+  T removeSmallest()
+  {
     if (m_size == 0) {
       throw runtime_error("Cannot remove from empty set.");
     }
 
     int smallestIndex = 0;
 
-    for (int i = 1; i < m_size ; i++) {
+    for (int i = 1; i < m_size; i++) {
       if (m_data[i] < m_data[smallestIndex]) {
         smallestIndex = i;
       }
@@ -138,20 +142,20 @@ public:
     return smallestValue;
   }
 
-  bool operator==(const set<T>& other) const {
+  bool operator==(const set<T>& other) const
+  {
     if (m_size != other.m_size) {
       return false;
     }
 
     for (int i = 0; i < m_size; i++) {
-      if (!other.contains(m_data[i])){
-        return false
+      if (!other.contains(m_data[i])) {
+        return false;
       }
     }
 
     return true;
   }
-
 };
 
 #endif
