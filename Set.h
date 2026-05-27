@@ -130,7 +130,7 @@ public:
     T smallestValue = m_data[smallestIndex];
 
     for (int i = smallestIndex; i < m_size - 1; i++) {
-      m_data[i] = m_d
+      m_data[i] = m_data[i + 1]
     }
   }
 
