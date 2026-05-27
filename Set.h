@@ -51,7 +51,7 @@ class Set{
         return;
       }
 
-      if (m_size )
+      if (m_size == m_capacti)
     }
 };
 
