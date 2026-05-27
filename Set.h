@@ -44,7 +44,7 @@ public:
   Set(const Set<T>& other) {
     m_capacity = other.m_capacity;
     m_size = other.m_size;
-    
+    m_data = new T[m_]
   }
 
   bool contains(T item) const
