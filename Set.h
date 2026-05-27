@@ -142,6 +142,8 @@ public:
     if (m_size != other.m_size) {
       return false;
     }
+
+    for (int i)
   }
 
 };
