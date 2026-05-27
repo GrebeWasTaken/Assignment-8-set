@@ -129,7 +129,7 @@ public:
 
     T smallestValue = m_data[smallestIndex];
 
-    for (int i = smallestIndex; i < m_size)
+    for (int i = smallestIndex; i < m_size - 1; )
   }
 
 };
