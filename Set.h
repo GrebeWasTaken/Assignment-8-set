@@ -182,7 +182,8 @@ public:
         result.add(m_data[i]);
       }
     }
-    
+
+    return result;
   }
 };
 
