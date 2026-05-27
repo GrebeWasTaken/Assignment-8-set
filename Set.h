@@ -64,7 +64,7 @@ public:
       }
     }
 
-    return 
+    return *this;
   }
 
   bool contains(T item) const
