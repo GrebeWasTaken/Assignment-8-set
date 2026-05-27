@@ -25,7 +25,7 @@ class Set{
       delete[] m_data;
     }
 
-    bool contains()
+    bool contains(T item) 
 
     void add(T item) {
       
