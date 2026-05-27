@@ -113,6 +113,9 @@ public:
   void clear() {
     m_size = 0;
   }
+
+  T
+
 };
 
 #endif
