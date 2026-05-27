@@ -119,7 +119,9 @@ public:
       throw runtime_error("Cannot remove from empty set.");
     }
 
-    int 
+    int smallestIndex = 0;
+
+    
   }
 
 };
