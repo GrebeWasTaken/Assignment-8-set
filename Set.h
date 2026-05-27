@@ -47,7 +47,9 @@ class Set{
     }
 
     void add(T item) {
-      
+      if (contains(item)) { 
+        
+      }
     }
 };
 
