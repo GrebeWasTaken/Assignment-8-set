@@ -15,7 +15,9 @@ class Set{
     int m_capacity;
 
   publice:
-    
+    Set() {
+      
+    }
 }
 
 #endif
