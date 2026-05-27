@@ -22,7 +22,7 @@ class Set{
       for (int i - 0; i < m_size; i++) {
         newData[i] = m_data[i];
 
-        delete[] 
+        delete[] m_data;
       }
     }
   publice:
