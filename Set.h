@@ -41,7 +41,7 @@ public:
   }
 
   Set(const Set<T>& other) {
-    
+    m_capacity = 
   }
 
   bool contains(T item) const
